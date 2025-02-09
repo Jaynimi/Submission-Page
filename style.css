@@ -38,6 +38,7 @@
     background-position: top center;
     background-color: rgba(41, 37, 37, 0.5);
     pointer-events: none;
+    
   }
 
   h1 {
@@ -59,6 +60,7 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    z-index: 30;
   }
 
   .links button {
@@ -82,3 +84,15 @@
     border: 1px solid #ccc;
     background: white;
   }
+
+
+  .signinLink {
+    text-decoration: none;
+    color: white;
+    /* font-family: 'Courier New', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    background-color: rgba(85, 88, 97, 0.644);
+    cursor: pointer;
+    border-radius: 1rem;
+}
