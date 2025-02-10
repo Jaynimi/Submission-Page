@@ -26,20 +26,7 @@
     z-index: 1;
   } */
 
-  .content {
-    width: 100%; 
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url('images/Omoh-06\ \(2\).jpg') no-repeat center center/cover;
-    background-position: top center;
-    background-color: rgba(41, 37, 37, 0.5);
-    pointer-events: none;
-    
-  }
+
 
   h1 {
     font-size: 3rem;
@@ -55,44 +42,30 @@
     margin: 20px 0;
   }
 
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    z-index: 30;
-  }
+.signinContainer {
+  margin-top: 60px;
+}
 
-  .links button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+.signinLink {
+  text-decoration: none;
+  color: white;
+  /* font-family: 'Courier New', monospace; */
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  background-color: rgba(85, 88, 97, 0.644);
+  cursor: pointer;
+  border-radius: 1rem;
+}
 
-  .links button:hover {
-    background: #0056b3;
-  }
+@media (max-width: 768px) {
 
-  iframe {
-    width: 80%;
-    height: 400px;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    background: white;
-  }
-
-
+.signinContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
   .signinLink {
-    text-decoration: none;
-    color: white;
-    /* font-family: 'Courier New', monospace; */
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px;
-    background-color: rgba(85, 88, 97, 0.644);
-    cursor: pointer;
-    border-radius: 1rem;
+  font-size: 0.8rem;
+  margin: 10px;
+  }
 }
